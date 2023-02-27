@@ -14,7 +14,7 @@ const port = process.env.PORT
 // middleware
 app.use(express.json()); // parse JSON bodies (as sent by API clients
 app.use(bodyParser.json()); // parse JSON bodies
-app.use('/incidents', incidentsRouter); // use the incidents router for requests to /incidents
+app.use('/api/v1/incidents', incidentsRouter); // use the incidents router for requests to /incidents
 
 // GET /
 app.listen(port, () => {
