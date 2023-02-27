@@ -9,8 +9,8 @@ METHOD:
 
 GET: Retrieves a list of all incident reports.
 POST: Creates a new incident report.
-Request Header:
 
+Request Header:
 Content-Type: application/json
 
 RESPONSE:
