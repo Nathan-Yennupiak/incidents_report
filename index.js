@@ -9,9 +9,9 @@ dotenv.config();
 // create express app
 const app = express();
 // set the port to listen on
-const port = process.env.PORT || 3000;
+const port = process.env.PORT
 
-
+app.use(express.json()); // parse JSON bodies
 app.use(bodyParser.json()); // parse JSON bodies
 app.use('/incidents', incidentsRouter); // use the incidents router for requests to /incidents
 
