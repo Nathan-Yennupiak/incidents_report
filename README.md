@@ -1,7 +1,7 @@
 # incidents_report
 API Documentation:
 
-API endpoint: https://incidents-report-api.onrender.com/api/v1/incidents
+Live API endpoint: https://incidents-report-api.onrender.com/api/v1/incidents
 
 This endpoint is a RESTful API that allows users to retrieve and create incident reports.
 
